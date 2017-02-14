@@ -1,0 +1,1 @@
+{{from gluon.serializers import ics}}{{=XML(ics(**response._vars))}}
